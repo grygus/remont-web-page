@@ -86,3 +86,25 @@ nav a {
         width: 80%; /* Zwiększa szerokość na mniejszych ekranach */
     }
 }
+
+.table-view {
+    display: none; /* Domyślnie ukryta */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-view th, .table-view td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-view th {
+    background-color: #005A9C;
+    color: white;
+}
+
+.table-view img {
+    max-width: 50px; /* Ustaw mniejszą maksymalną szerokość dla obrazów */
+    height: auto;
+}
