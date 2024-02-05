@@ -1,20 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
     const toolsList = document.querySelector('.tools-list');
     const filterButtons = document.querySelectorAll('.filter');
+    const searchInput = document.getElementById('search-input');
+    let toolsData = [];
 
     fetch('tools.json')
         .then(response => response.json())
         .then(data => {
-            displayTools(data);
-
-            filterButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const type = button.getAttribute('data-type');
-                    const filteredTools = data.filter(tool => tool.type === type);
-                    displayTools(filteredTools);
-                });
-            });
+            toolsData = data; // Przechowuj dane narzędzi globalnie
+            displayTools(toolsData);
         });
+
+    searchInput.addEventListener('input', () => {
+        const searchText = searchInput.value.toLowerCase();
+        const filteredTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
+        displayTools(filteredTools);
+    });
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const type = button.getAttribute('data-type');
+            const filteredTools = toolsData.filter(tool => tool.type === type);
+            displayTools(filteredTools);
+        });
+    });
 
     function displayTools(tools) {
         toolsList.innerHTML = ''; // Clear the list first
