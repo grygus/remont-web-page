@@ -61,3 +61,28 @@ nav a {
         flex-direction: column;
     }
 }
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+    width: 50%; /* Dostosuj szerokość paska wyszukiwania */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #005A9C; /* Kolor obramowania */
+    border-radius: 20px; /* Zaokrąglone rogi */
+    outline: none;
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #007BFF; /* Kolor obramowania przy fokusie */
+}
+
+/* Responsywność dla mniejszych ekranów */
+@media (max-width: 768px) {
+    .search-bar input[type="text"] {
+        width: 80%; /* Zwiększa szerokość na mniejszych ekranach */
+    }
+}
