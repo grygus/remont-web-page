@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         toolsList.style.display = 'none'; // Ukryj widok listy
         tableView.style.display = 'table'; // Pokaż widok tabeli
         createTableView(toolsData); // Wywołaj funkcję tworzącą widok tabeli z aktualnymi danymi
-        document.body.insertBefore(tableView, toolsList.nextSibling); // Wstaw tabelę za listą narzędzi
+        toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
     });
 
     // Obsługa przycisku widoku listy
