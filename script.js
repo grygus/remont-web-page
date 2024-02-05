@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	const listViewBtn = document.getElementById('list-view-btn');
     const tableViewBtn = document.getElementById('table-view-btn');
-    const toolsList = document.querySelector('.tools-list');
     let tableView = document.createElement('table');
     tableView.className = 'table-view';
     
