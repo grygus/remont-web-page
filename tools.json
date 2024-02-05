@@ -1,0 +1,11 @@
+[
+    {
+        "type": "elektronarzędzia",
+        "name": "Wiertarka udarowa",
+        "netPrice": "100.00",
+        "grossPrice": "123.00",
+        "deposit": "200.00",
+        "image": "link-do-obrazka-wiertarki.jpg"
+    }
+    // Dodaj tutaj więcej narzędzi
+]
