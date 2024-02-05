@@ -1,10 +1,218 @@
 [
     {
         "type": "elektronarzędzia",
-        "name": "Wiertarka udarowa",
+        "name": "Zacieraczka",
         "netPrice": "100.00",
         "grossPrice": "123.00",
         "deposit": "200.00",
-        "image": "link-do-obrazka-wiertarki.jpg"
+        "image": "https://source.unsplash.com/featured/?power-trowel"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Wertykulator trawników porośniętych mchem i splątanych trawą",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "240.00",
+        "image": "https://source.unsplash.com/featured/?lawn-scarifier"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Szlifierka do gładzi gipsowych",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "160.00",
+        "image": "https://source.unsplash.com/featured/?drywall-sander"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Niwelator laserowy",
+        "netPrice": "150.00",
+        "grossPrice": "184.50",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?laser-level"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Przecinarka do płytek",
+        "netPrice": "90.00",
+        "grossPrice": "110.70",
+        "deposit": "180.00",
+        "image": "https://source.unsplash.com/featured/?tile-cutter"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Wiertnica glebowa",
+        "netPrice": "200.00",
+        "grossPrice": "246.00",
+        "deposit": "400.00",
+        "image": "https://source.unsplash.com/featured/?earth-auger"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Polerka",
+        "netPrice": "110.00",
+        "grossPrice": "135.30",
+        "deposit": "220.00",
+        "image": "https://source.unsplash.com/featured/?polisher"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Myjka ciśnieniowa",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "260.00",
+        "image": "https://source.unsplash.com/featured/?pressure-washer"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Zagęszczarka gruntu",
+        "netPrice": "220.00",
+        "grossPrice": "270.60",
+        "deposit": "440.00",
+        "image": "https://source.unsplash.com/featured/?compactor"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Bruzdownica",
+        "netPrice": "140.00",
+        "grossPrice": "172.20",
+        "deposit": "280.00",
+        "image": "https://source.unsplash.com/featured/?wall-chaser"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Motopompa",
+        "netPrice": "160.00",
+        "grossPrice": "196.80",
+        "deposit": "320.00",
+        "image": "https://source.unsplash.com/featured/?water-pump"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Młot wyburzeniowy",
+        "netPrice": "180.00",
+        "grossPrice": "221.40",
+        "deposit": "360.00",
+        "image": "https://source.unsplash.com/featured/?demolition-hammer"
+    },
+	    {
+        "type": "elektronarzędzia",
+        "name": "Młot udarowy",
+        "netPrice": "170.00",
+        "grossPrice": "209.10",
+        "deposit": "340.00",
+        "image": "https://source.unsplash.com/featured/?jackhammer"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Przecinarka tarczowa",
+        "netPrice": "190.00",
+        "grossPrice": "233.70",
+        "deposit": "380.00",
+        "image": "https://source.unsplash.com/featured/?circular-saw"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Szlifierka kątowa",
+        "netPrice": "95.00",
+        "grossPrice": "116.85",
+        "deposit": "190.00",
+        "image": "https://source.unsplash.com/featured/?angle-grinder"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Pilarka spalinowa",
+        "netPrice": "210.00",
+        "grossPrice": "258.30",
+        "deposit": "420.00",
+        "image": "https://source.unsplash.com/featured/?chainsaw"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Generator spawalniczy",
+        "netPrice": "300.00",
+        "grossPrice": "369.00",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?welding-generator"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Wyrzynarka",
+        "netPrice": "85.00",
+        "grossPrice": "104.55",
+        "deposit": "170.00",
+        "image": "https://source.unsplash.com/featured/?jigsaw"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Cyklinarka",
+        "netPrice": "250.00",
+        "grossPrice": "307.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?floor-sander"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Stopa wibracyjna",
+        "netPrice": "230.00",
+        "grossPrice": "282.90",
+        "deposit": "460.00",
+        "image": "https://source.unsplash.com/featured/?vibratory-plate"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Spawarka",
+        "netPrice": "260.00",
+        "grossPrice": "319.80",
+        "deposit": "520.00",
+        "image": "https://source.unsplash.com/featured/?welder"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Oscylująca listwa wyrównująca",
+        "netPrice": "240.00",
+        "grossPrice": "295.20",
+        "deposit": "480.00",
+        "image": "https://source.unsplash.com/featured/?screed"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Młot udarowo-obrotowy",
+        "netPrice": "200.00",
+        "grossPrice": "246.00",
+        "deposit": "400.00",
+        "image": "https://source.unsplash.com/featured/?rotary-hammer"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Nożyce do żywopłotu",
+        "netPrice": "110.00",
+        "grossPrice": "135.30",
+        "deposit": "220.00",
+        "image": "https://source.unsplash.com/featured/?hedge-trimmer"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Osuszacz",
+        "netPrice": "180.00",
+        "grossPrice": "221.40",
+        "deposit": "360.00",
+        "image": "https://source.unsplash.com/featured/?dehumidifier"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Generator spalinowy",
+        "netPrice": "350.00",
+        "grossPrice": "430.50",
+        "deposit": "700.00",
+        "image": "https://source.unsplash.com/featured/?gasoline-generator"
+    },
+    {
+        "type": "elektronarzędzia",
+        "name": "Wykrywacz metali",
+        "netPrice": "90.00",
+        "grossPrice": "110.70",
+        "deposit": "180.00",
+        "image": "https://source.unsplash.com/featured/?metal-detector"
     }
 ]
