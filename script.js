@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
     const toolsList = document.querySelector('.tools-list');
     const filterButtons = document.querySelectorAll('.filter');
     const searchInput = document.getElementById('search-input');
+    const listViewBtn = document.getElementById('list-view-btn');
+    const tableViewBtn = document.getElementById('table-view-btn');
+    const resetViewBtn = document.getElementById('reset-view-btn');
     let toolsData = [];
+    let currentView = 'list'; // Track the current view
+    let currentTools = []; // Track the current displayed tools
 
     fetch('tools.json')
         .then(response => response.json())
         .then(data => {
-            toolsData = data; // Przechowuj dane narzędzi globalnie
-            displayTools(toolsData);
+            toolsData = data;
+            currentTools = [...toolsData];
+            displayTools(currentTools);
+            implementInfiniteScroll();
         });
 
-    searchInput.addEventListener('input', () => {
-        const searchText = searchInput.value.toLowerCase();
-        const filteredTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
-        displayTools(filteredTools);
-    });
+    const displayTools = (tools, reset = false) => {
+        if (reset || currentView === 'list') {
+            toolsList.innerHTML = ''; // Clear the list first
+            tools.forEach(tool => createToolElement(tool));
+            toolsList.style.display = 'block'; // Ensure list view is visible
+        } else {
+            createTableView(tools);
+        }
+    };
 
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const type = button.getAttribute('data-type');
-            const filteredTools = toolsData.filter(tool => tool.type === type);
-            displayTools(filteredTools);
-        });
-    });
+    const createToolElement = (tool) => {
+        const toolElement = document.createElement('div');
+        toolElement.classList.add('tool');
+        toolElement.innerHTML = `
+            <img src="${tool.image}" alt="${tool.name}" style="width: 100%;">
+            <h3>${tool.name}</h3>
+            <p>Cena netto: ${tool.netPrice} PLN</p>
+            <p>Cena brutto: ${tool.grossPrice} PLN</p>
+            <p>Kaucja: ${tool.deposit} PLN</p>
+        `;
+        toolsList.appendChild(toolElement);
+    };
 
-    function displayTools(tools) {
-        toolsList.innerHTML = ''; // Clear the list first
-        tools.forEach(tool => {
-            const toolElement = document.createElement('div');
-            toolElement.classList.add('tool');
-            toolElement.innerHTML = `
-                <img src="${tool.image}" alt="${tool.name}" style="width: 100%;">
-                <h3>${tool.name}</h3>
-                <p>Cena netto: ${tool.netPrice} PLN</p>
-                <p>Cena brutto: ${tool.grossPrice} PLN</p>
-                <p>Kaucja: ${tool.deposit} PLN</p>
-            `;
-            toolsList.appendChild(toolElement);
-        });
-    }
-	
-	const listViewBtn = document.getElementById('list-view-btn');
-    const tableViewBtn = document.getElementById('table-view-btn');
-    let tableView = document.createElement('table');
-    tableView.className = 'table-view';
-    
-    // Funkcja do tworzenia widoku tabeli
-    function createTableView(tools) {
+    const createTableView = (tools) => {
+        let tableView = document.querySelector('.table-view');
+        if (!tableView) {
+            tableView = document.createElement('table');
+            tableView.className = 'table-view';
+            toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
+        }
         tableView.innerHTML = `<tr>
             <th>Obraz</th>
             <th>Nazwa</th>
@@ -65,19 +65,45 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${tool.deposit} PLN</td>
             `;
         });
-    }
+        tableView.style.display = 'table';
+        toolsList.style.display = 'none'; // Hide list view
+        currentView = 'table';
+    };
 
-    // Obsługa przycisku widoku tabeli
-    tableViewBtn.addEventListener('click', () => {
-        toolsList.style.display = 'none'; // Ukryj widok listy
-        tableView.style.display = 'table'; // Pokaż widok tabeli
-        createTableView(toolsData); // Wywołaj funkcję tworzącą widok tabeli z aktualnymi danymi
-        toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
+    // Functionality to switch between list and table view
+    listViewBtn.addEventListener('click', () => switchView('list'));
+    tableViewBtn.addEventListener('click', () => switchView('table'));
+
+    // Reset view to display all tools
+    resetViewBtn.addEventListener('click', () => {
+        currentTools = [...toolsData];
+        displayTools(currentTools, true);
     });
 
-    // Obsługa przycisku widoku listy
-    listViewBtn.addEventListener('click', () => {
-        tableView.style.display = 'none'; // Ukryj widok tabeli
-        toolsList.style.display = 'block'; // Pokaż widok listy
+    // Implement search functionality
+    searchInput.addEventListener('input', () => {
+        const searchText = searchInput.value.toLowerCase();
+        currentTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
+        displayTools(currentTools);
     });
+
+    // Filter functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const type = button.getAttribute('data-type');
+            currentTools = toolsData.filter(tool => tool.type === type);
+            displayTools(currentTools);
+        });
+    });
+
+    const switchView = (view) => {
+        currentView = view;
+        displayTools(currentTools, true);
+    };
+
+    // Infinite scroll implementation
+    const implementInfiniteScroll = () => {
+        // Placeholder for infinite scroll logic
+        // This would include adding an event listener to the scroll event and loading more items as needed
+    };
 });

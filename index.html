@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remont - Wypożyczalnia Elektronarzędzi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- For icons -->
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -25,16 +26,16 @@
                 <button class="filter" data-type="maszyny ogrodnicze">Maszyny Ogrodnicze</button>
                 <button class="filter" data-type="sprzęt ręczny">Sprzęt Ręczny</button>
             </div>
-			<div class="search-bar">
-				<input type="text" id="search-input" placeholder="Wyszukaj narzędzie...">
-			</div>
-			<div class="view-toggle">
-    <button id="list-view-btn">Widok listy</button>
-    <button id="table-view-btn">Widok tabeli</button>
-</div>
-
-				<div class="tools-list"></div>
-			</section>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Wyszukaj narzędzie...">
+            </div>
+            <div class="view-toggle">
+                <button id="list-view-btn"><i class="fas fa-list"></i> Widok listy</button>
+                <button id="table-view-btn"><i class="fas fa-table"></i> Widok tabeli</button>
+                <button id="reset-view-btn"><i class="fas fa-undo"></i> Resetuj widok</button>
+            </div>
+            <div class="tools-list"></div>
+        </section>
 
         <section id="contact">
             <h2>Kontakt</h2>

@@ -108,3 +108,43 @@ nav a {
     max-width: 50px; /* Ustaw mniejszą maksymalną szerokość dla obrazów */
     height: auto;
 }
+
+/* Existing CSS... */
+
+.table-view {
+    display: none; /* Adjusted to be controlled by JS */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-view th, .table-view td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-view th {
+    background-color: #005A9C;
+    color: white;
+}
+
+.table-view img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Icons styling */
+.view-toggle button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Adjustments for responsive design and infinite scroll might be added here. */
+
+/* Example for infinite scroll loading indicator */
+.loading-indicator {
+    text-align: center;
+    padding: 20px;
+    display: none; /* Hide by default, shown via JS when loading */
+}
