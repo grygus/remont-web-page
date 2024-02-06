@@ -1,218 +1,850 @@
 [
     {
-        "type": "elektronarzędzia",
-        "name": "Zacieraczka",
-        "netPrice": "100.00",
-        "grossPrice": "123.00",
-        "deposit": "200.00",
-        "image": "https://source.unsplash.com/featured/?power-trowel"
+        "type": "Elektronarzędzia",
+        "name": "CYKLINIARKA Elektromet-SP 25",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "500.00",
+        "image": "https://www.remont.info.pl/img/narzedzia/xa26.jpg.pagespeed.ic.qJf59QiqQe.webp"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Wertykulator trawników porośniętych mchem i splątanych trawą",
-        "netPrice": "120.00",
-        "grossPrice": "147.60",
-        "deposit": "240.00",
-        "image": "https://source.unsplash.com/featured/?lawn-scarifier"
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT PRĄDOTWÓRCZY Robin EX 3500 3,5kVA/230V",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "1000.00",
+        "image": "https://www.remont.info.pl/img/narzedzia/xa19.jpg.pagespeed.ic.NxaZ9kbtem.webp"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Szlifierka do gładzi gipsowych",
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT PRĄDOTWÓRCZY Robin EX 5000 5 kVA/230V",
         "netPrice": "80.00",
         "grossPrice": "98.40",
-        "deposit": "160.00",
-        "image": "https://source.unsplash.com/featured/?drywall-sander"
+        "deposit": "1000.00",
+        "image": "https://www.remont.info.pl/img/narzedzia/xniwelator_RL250.jpg.pagespeed.ic.iKIVmz9iPe.webp"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Niwelator laserowy",
-        "netPrice": "150.00",
-        "grossPrice": "184.50",
-        "deposit": "300.00",
-        "image": "https://source.unsplash.com/featured/?laser-level"
+        "type": "Maszyny ogrodnicze",
+        "name": "Wertykulator Viking LB 540",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://www.remont.info.pl/img/narzedzia/xa18.jpg.pagespeed.ic.C883FiHjhl.webp"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Przecinarka do płytek",
+        "type": "Elektronarzędzia",
+        "name": "MŁOT WYBURZENIOWY Hilti TE 1000 AVR, Bosch GSH 16-28",
+        "netPrice": "100.00",
+        "grossPrice": "123.00",
+        "deposit": "1500.00",
+        "image": "https://www.remont.info.pl/img/narzedzia/xa17.jpg.pagespeed.ic.9SSF0IZE1p.webp"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "WIERTARKA KĄTOWA Makita DA 3010F",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?powerdrill"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "KOSIARKA SPALINOWA Makita PLM 4120N",
         "netPrice": "90.00",
         "grossPrice": "110.70",
-        "deposit": "180.00",
-        "image": "https://source.unsplash.com/featured/?tile-cutter"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Wiertnica glebowa",
-        "netPrice": "200.00",
-        "grossPrice": "246.00",
         "deposit": "400.00",
-        "image": "https://source.unsplash.com/featured/?earth-auger"
+        "image": "https://source.unsplash.com/featured/?lawnmower"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Polerka",
-        "netPrice": "110.00",
-        "grossPrice": "135.30",
-        "deposit": "220.00",
-        "image": "https://source.unsplash.com/featured/?polisher"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Myjka ciśnieniowa",
-        "netPrice": "130.00",
-        "grossPrice": "159.90",
-        "deposit": "260.00",
-        "image": "https://source.unsplash.com/featured/?pressure-washer"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Zagęszczarka gruntu",
-        "netPrice": "220.00",
-        "grossPrice": "270.60",
-        "deposit": "440.00",
-        "image": "https://source.unsplash.com/featured/?compactor"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Bruzdownica",
-        "netPrice": "140.00",
-        "grossPrice": "172.20",
-        "deposit": "280.00",
-        "image": "https://source.unsplash.com/featured/?wall-chaser"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Motopompa",
-        "netPrice": "160.00",
-        "grossPrice": "196.80",
-        "deposit": "320.00",
-        "image": "https://source.unsplash.com/featured/?water-pump"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Młot wyburzeniowy",
-        "netPrice": "180.00",
-        "grossPrice": "221.40",
-        "deposit": "360.00",
-        "image": "https://source.unsplash.com/featured/?demolition-hammer"
-    },
-	    {
-        "type": "elektronarzędzia",
-        "name": "Młot udarowy",
-        "netPrice": "170.00",
-        "grossPrice": "209.10",
-        "deposit": "340.00",
-        "image": "https://source.unsplash.com/featured/?jackhammer"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Przecinarka tarczowa",
-        "netPrice": "190.00",
-        "grossPrice": "233.70",
-        "deposit": "380.00",
-        "image": "https://source.unsplash.com/featured/?circular-saw"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Szlifierka kątowa",
-        "netPrice": "95.00",
-        "grossPrice": "116.85",
-        "deposit": "190.00",
-        "image": "https://source.unsplash.com/featured/?angle-grinder"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Pilarka spalinowa",
-        "netPrice": "210.00",
-        "grossPrice": "258.30",
-        "deposit": "420.00",
-        "image": "https://source.unsplash.com/featured/?chainsaw"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Generator spawalniczy",
-        "netPrice": "300.00",
-        "grossPrice": "369.00",
-        "deposit": "600.00",
-        "image": "https://source.unsplash.com/featured/?welding-generator"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Wyrzynarka",
-        "netPrice": "85.00",
-        "grossPrice": "104.55",
-        "deposit": "170.00",
-        "image": "https://source.unsplash.com/featured/?jigsaw"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Cyklinarka",
-        "netPrice": "250.00",
-        "grossPrice": "307.50",
+        "type": "Maszyny ogrodnicze",
+        "name": "OSUSZACZ Master DH 721",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
         "deposit": "500.00",
-        "image": "https://source.unsplash.com/featured/?floor-sander"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Stopa wibracyjna",
-        "netPrice": "230.00",
-        "grossPrice": "282.90",
-        "deposit": "460.00",
-        "image": "https://source.unsplash.com/featured/?vibratory-plate"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Spawarka",
-        "netPrice": "260.00",
-        "grossPrice": "319.80",
-        "deposit": "520.00",
-        "image": "https://source.unsplash.com/featured/?welder"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Oscylująca listwa wyrównująca",
-        "netPrice": "240.00",
-        "grossPrice": "295.20",
-        "deposit": "480.00",
-        "image": "https://source.unsplash.com/featured/?screed"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Młot udarowo-obrotowy",
-        "netPrice": "200.00",
-        "grossPrice": "246.00",
-        "deposit": "400.00",
-        "image": "https://source.unsplash.com/featured/?rotary-hammer"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Nożyce do żywopłotu",
-        "netPrice": "110.00",
-        "grossPrice": "135.30",
-        "deposit": "220.00",
-        "image": "https://source.unsplash.com/featured/?hedge-trimmer"
-    },
-    {
-        "type": "elektronarzędzia",
-        "name": "Osuszacz",
-        "netPrice": "180.00",
-        "grossPrice": "221.40",
-        "deposit": "360.00",
         "image": "https://source.unsplash.com/featured/?dehumidifier"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Generator spalinowy",
-        "netPrice": "350.00",
-        "grossPrice": "430.50",
-        "deposit": "700.00",
-        "image": "https://source.unsplash.com/featured/?gasoline-generator"
+        "type": "Elektronarzędzia",
+        "name": "SZLIFIERKA KĄTOWA 125, 230 Bosch, Makita, Hitachi",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?anglegrinder"
     },
     {
-        "type": "elektronarzędzia",
-        "name": "Wykrywacz metali",
+        "type": "Elektronarzędzia",
+        "name": "SZLIFIERKA TAŚMOWA Celma-DBSMm 75",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?beltsander"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PIŁA ŁAŃCUCHOWA Stihl 025, Stihl MS 250",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?chainsaw"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "NAGRZEWNICA OLEJOWA Master B100 CED 29kW",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?heater"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "ZACISKARKA Rems ECO-PRESS",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?crimptool"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "POLERKA Weidner ESX 43",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?polisher"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "MOTOPOMPA Robin-Subaru PTG 307 1000l/min + wąż ssawny",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?waterpump"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ŚWIDER DO GLEBY Kaaz AG500 + wiertło fi 200mm",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?auger"
+    },
+	{
+        "type": "Elektronarzędzia",
+        "name": "WIERTNICA DIAMENTOWA Hilti DD 200 BL",
+        "netPrice": "160.00",
+        "grossPrice": "196.80",
+        "deposit": "3000.00",
+        "image": "https://source.unsplash.com/featured/?diamondDrill"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "GLEBOGRYZARKA Eurosystems RTT2 z napędem",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "1500.00",
+        "image": "https://source.unsplash.com/featured/?tiller"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "OPRYSKIWACZ RĘCZNY PLECAKOWY Bass 16 litrów",
+        "netPrice": "12.00",
+        "grossPrice": "14.76",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?sprayer"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "TACZKA",
+        "netPrice": "12.00",
+        "grossPrice": "14.76",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?wheelbarrow"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "KAMERA TERMOWIZYJNA Flir TG167",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?thermalCamera"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "KOSA SPALINOWA Kawasaki KBH 48A",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?brushCutter"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ZAGĘSZCZARKA GRUNTU Weber CR5, 319 kg",
+        "netPrice": "170.00",
+        "grossPrice": "209.10",
+        "deposit": "3000.00",
+        "image": "https://source.unsplash.com/featured/?compactor"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "ZGRZEWARKA DO RUR Wavin R63 od fi16 do fi 63",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?pipeWelder"
+    },
+	{
+        "type": "Elektronarzędzia",
+        "name": "MŁOT UDAROWO-OBROTOWY Hilti TE 70",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?rotaryHammer"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT SPAWALNICZY Kohler EHW 220",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "2000.00",
+        "image": "https://source.unsplash.com/featured/?weldingGenerator"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ZAGĘSZCZARKA GRUNTU Bomag BPR65/52D-3 565kg",
+        "netPrice": "220.00",
+        "grossPrice": "270.60",
+        "deposit": "4000.00",
+        "image": "https://source.unsplash.com/featured/?groundCompactor"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "UKOŚNICA Metabo KGS 255",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "200.00",
+        "image": "https://source.unsplash.com/featured/?miterSaw"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "SZLIFIERKA 'VARIO' Bosch-GVS 350 AE",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?variableSpeedSander"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "LISTWA WYRÓWNUJĄCA (dwukierunkowa) Enar QZR.2m",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?screedBoard"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "WERTYKULATOR Viking LB 540",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?lawnScarifier"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "WALEC DO TRAWY Fiskars",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?lawnRoller"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "ODKURZACZ PRZEMYSŁOWY Hilti VCU 40, Nilfisk Attix 44",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?industrialVacuum"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "ROZDRABNIACZ GAŁĘZI Cedrus RB02, do 10cm",
+        "netPrice": "150.00",
+        "grossPrice": "184.50",
+        "deposit": "800.00",
+        "image": "https://source.unsplash.com/featured/?chipper"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "PIŁA SZABLASTA Hilti WSR 1400-PE",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?reciprocatingSaw"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA KĄTOWA Celma-PRAs 175, Celma-Pras 235",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?angleGrinder"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "POLERKA KĄTOWA Bez SK 178/27",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?polisher"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PRZECINARKA TARCZOWA Hilti DSH 700",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?discCutter"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "MYJKA CIŚNIENIOWA Karcher HD 6/15C",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?pressureWasher"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "GWINTOWNICA ELEKTRYCZNA Rems Amigo2",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?electricThreader"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "CYKLINIARKA LIBRA EXPANSION",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?floor
+	},
+	{
+        "type": "Elektronarzędzia",
+        "name": "DRABINA 3x11 dl. 6,5 m Krause",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "200.00",
+        "image": "https://source.unsplash.com/featured/?ladder"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT PRĄDOTWÓRCZY Kohler CH 16000 16kVA/400;10kVA/230",
+        "netPrice": "160.00",
+        "grossPrice": "196.80",
+        "deposit": "3000.00",
+        "image": "https://source.unsplash.com/featured/?generator"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "NAGRZEWNICA Frico -P31 3kW/230V",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?heater"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "MIESZARKA Scheppach PM 1400",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?mixer"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "KOMPRESOR Intertec NG2-100C-3M, 100L, 10 bar",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?compressor"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PODKASZARKA SPALINOWA Stihl FS 38",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?trimmer"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "PIŁA ŁAŃCUCHOWA Makita UC-4001A",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?chainsaw"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA 'ŻYRAFA' Flex WS 702 VEA",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?drywallSander"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "OSUSZACZ Master DH 40",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?dehumidifier"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "ZAGĘSZCZARKA GRUNTU DYNAPAC LF90 90 kg",
         "netPrice": "90.00",
         "grossPrice": "110.70",
-        "deposit": "180.00",
-        "image": "https://source.unsplash.com/featured/?metal-detector"
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?compactor"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "SIEWNIK Nac S20-K",
+        "netPrice": "12.00",
+        "grossPrice": "14.76",
+        "deposit": "50.00",
+        "image": "https://source.unsplash.com/featured/?seeder"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "WIERTARKA UDAROWA Makita HP-2050",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "200.00",
+        "image": "https://source.unsplash.com/featured/?impactDrill"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "GWINTOWNICA Virax 1362",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?threadingMachine"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "MOTOPOMPA Robin-Subaru PTG 307 1000l/min + wąż ssawny",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?waterPump"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "NOŻYCE DO ŻYWOPŁOTU Stihl HS45",
+        "netPrice": "60.00",
+        "grossPrice": "73.80",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?hedgeTrimmer"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "ZACISKARKA Rems ECO-PRESS",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?crimpingTool"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "POLERKA KĄTOWA Bez SK 178/27",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?anglePolisher"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PRZECINARKA TARCZOWA Weber SM 57",
+        "netPrice": "100.00",
+        "grossPrice": "123.00",
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?circularSaw"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "KOMPRESOR ZFL50, 50L, 8bar",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?compressor"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "MŁOT WYBURZENIOWY Makita HM1802",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "2000.00",
+        "image": "https://source.unsplash.com/featured/?demolitionHammer"
+    },
+	{
+        "type": "Elektronarzędzia",
+        "name": "WIERTARKA UDAROWA Makita HR-2010",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?drill"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PIŁA ŁAŃCUCHOWA Stihl MS 250",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?chainsaw"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "OSUSZACZ Master DH 721",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?dehumidifier"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA KĄTOWA 125, 230 Bosch, Makita, Hitachi",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?anglegrinder"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "KOMPRESOR Intertec NG2-100C-3M, 100L, 10 bar",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?compressor"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT PRĄDOTWÓRCZY Robin EH 7000 7kVA/400; 42kVA/230",
+        "netPrice": "90.00",
+        "grossPrice": "110.70",
+        "deposit": "1500.00",
+        "image": "https://source.unsplash.com/featured/?generator"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "GLEBOGRYZARKA Eurosystems RTT2 z napędem",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "1500.00",
+        "image": "https://source.unsplash.com/featured/?tiller"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "MŁOT UDAROWY Bosch GSH 11E, Hilti TE706",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?jackhammer"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "CYKLINIARKA LIBRA EXPANSION",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?sander"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "KOSIARKA SPALINOWA Makita PLM 4120N",
+        "netPrice": "90.00",
+        "grossPrice": "110.70",
+        "deposit": "400.00",
+        "image": "https://source.unsplash.com/featured/?lawnmower"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "NAGRZEWNICA OLEJOWA Master B100 CED 29kW",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?heater"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "WKRĘTARKA AKUMULATOROWA Bosch GSR 12-2",
+        "netPrice": "30.00",
+        "grossPrice": "36.90",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?cordlessdrill"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "MŁOT WYBURZENIOWY Hilti TE 1500 AVR",
+        "netPrice": "110.00",
+        "grossPrice": "135.30",
+        "deposit": "1500.00",
+        "image": "https://source.unsplash.com/featured/?demolitionhammer"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PRZECINARKA DO PŁYTEK Norton Clipper TR250H",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?tilecutter"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "PODKRZESYWARKA Stihl HT 133 1,9 kM 270-390 cm",
+        "netPrice": "200.00",
+        "grossPrice": "246.00",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?pruner"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA TAŚMOWA Celma-DBSMm 75",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?beltsander"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "POLERKA KĄTOWA Celma-PRAs 235",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?anglepolisher"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "ZAGĘSZCZARKA GRUNTU Tremix MV65, Ammann AVP1240 60-70 kg",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?groundcompactor"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ŚWIDER DO GLEBY Kaaz AG500 + wiertło fi 200mm",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?auger"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "MŁOT UDAROWO-OBROTOWY Hilti TE7-C",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?rotaryhammer"
+    },
+	{
+        "type": "Elektronarzędzia",
+        "name": "NOŻYCE DO ŻYWOPŁOTU Makita UH-5540",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "200.00",
+        "image": "https://source.unsplash.com/featured/?hedgeTrimmer"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "AGREGAT PRĄDOTWÓRCZY Robin EX 5000 5 kVA/230V",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "1000.00",
+        "image": "https://source.unsplash.com/featured/?generator"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ZAGĘSZCZARKA GRUNTU Weber CR4, Swepac FB 225 230-240 kg",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "2500.00",
+        "image": "https://source.unsplash.com/featured/?soilCompactor"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "GWINTOWNICA Virax 1362",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?pipeThreader"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "MŁOT WYBURZENIOWY Hilti TE 1000 AVR, Bosch GSH 16-28",
+        "netPrice": "100.00",
+        "grossPrice": "123.00",
+        "deposit": "1500.00",
+        "image": "https://source.unsplash.com/featured/?demolitionHammer"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "KOSA SPALINOWA Kawasaki KBH 48A",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?brushCutter"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "MYJKA CIŚNIENIOWA Karcher HD 6/15C",
+        "netPrice": "70.00",
+        "grossPrice": "86.10",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?pressureWasher"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA 'ŻYRAFA' Flex WS 702 VEA",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?drywallSander"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "WIERTARKA UDAROWA Makita HP-2050",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "200.00",
+        "image": "https://source.unsplash.com/featured/?impactDrill"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "PRZECINARKA TARCZOWA Hilti DSH 700",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?cutOffSaw"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "PODKRZESYWARKA Stihl HT 133 1,9 kM 270-390 cm",
+        "netPrice": "200.00",
+        "grossPrice": "246.00",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?polePruner"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "ZACISKARKA Rems ECO-PRESS",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?crimpingTool"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "POLERKA KĄTOWA Celma-PRAs 175, Celma-Pras 235",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?anglePolisher"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "LISTWA WYRÓWNUJĄCA (dwukierunkowa) Enar QZR.2m",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?screed"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "ZAGĘSZCZARKA GRUNTU Weber CR5, 319 kg",
+        "netPrice": "170.00",
+        "grossPrice": "209.10",
+        "deposit": "3000.00",
+        "image": "https://source.unsplash.com/featured/?soilCompactor"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "MŁOT UDAROWY Bosch GSH 5 E, Hilti TE 500",
+        "netPrice": "60.00",
+        "grossPrice": "73.80",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?hammerDrill"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "ODKURZACZ PRZEMYSŁOWY Hilti VCU 40, Nilfisk Attix 44",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?industrialVacuum"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "MOTOPOMPA Robin-Subaru PTG 307 1000l/min + wąż ssawny",
+        "netPrice": "80.00",
+        "grossPrice": "98.40",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?waterPump"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "NAGRZEWNICA OLEJOWA Master B100 CED 29kW",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?oilHeater"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "SZLIFIERKA TAŚMOWA Celma-DBSMm 75",
+        "netPrice": "20.00",
+        "grossPrice": "24.60",
+        "deposit": "100.00",
+        "image": "https://source.unsplash.com/featured/?beltSander"
+    },
+	{
+        "type": "Elektronarzędzia",
+        "name": "PIŁA SZABLASTA Hilti WSR 1400-PE",
+        "netPrice": "50.00",
+        "grossPrice": "61.50",
+        "deposit": "300.00",
+        "image": "https://source.unsplash.com/featured/?reciprocatingSaw"
+    },
+    {
+        "type": "Maszyny spalinowe",
+        "name": "KOSIARKA SPALINOWA Makita PLM 4120N",
+        "netPrice": "90.00",
+        "grossPrice": "110.70",
+        "deposit": "400.00",
+        "image": "https://source.unsplash.com/featured/?lawnMower"
+    },
+    {
+        "type": "Maszyny ogrodnicze",
+        "name": "WERTYKULATOR Viking LB 540",
+        "netPrice": "120.00",
+        "grossPrice": "147.60",
+        "deposit": "500.00",
+        "image": "https://source.unsplash.com/featured/?scarifier"
+    },
+    {
+        "type": "Sprzęt ręczny",
+        "name": "ZACISKARKA Rems ECO-PRESS",
+        "netPrice": "40.00",
+        "grossPrice": "49.20",
+        "deposit": "600.00",
+        "image": "https://source.unsplash.com/featured/?crimpingTool"
+    },
+    {
+        "type": "Elektronarzędzia",
+        "name": "MŁOT WYBURZENIOWY Makita HM1802",
+        "netPrice": "130.00",
+        "grossPrice": "159.90",
+        "deposit": "2000.00",
+        "image": "https://source.unsplash.com/featured/?demolitionHammer"
     }
 ]
