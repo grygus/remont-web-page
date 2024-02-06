@@ -76,7 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // View toggle buttons
     listViewBtn.addEventListener('click', () => switchView('list'));
     tableViewBtn.addEventListener('click', () => switchView('table'));
-    resetViewBtn.addEventListener('click', () => switchView('tile')); // Reset to tile view
+    resetViewBtn.addEventListener('click', () => {
+    currentView = 'tile'; // Explicitly set to 'tile' view
+    currentTools = [...toolsData];
+    displayTools(currentTools);
+});
 
     // Search and filter functionality for all views
     searchInput.addEventListener('input', () => {
