@@ -20,16 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     // Function to display tools based on the current view
-    const displayTools = (tools) => {
-        toolsList.innerHTML = ''; // Clear the list first
-        if (currentView === 'tile') {
-            tools.forEach(tool => createToolElement(tool, 'tile'));
-        } else if (currentView === 'list') {
-            tools.forEach(tool => createToolElement(tool, 'list'));
-        } else {
-            createTableView(tools);
-        }
-    };
+    cconst displayTools = (tools) => {
+    toolsList.innerHTML = ''; // Clear the current display
+    if (currentView === 'tile') {
+        tools.forEach(tool => createToolElement(tool, 'tile'));
+        toolsList.style.display = 'grid'; // Use 'grid' for tile view to align with your CSS for .tools-list
+    } else if (currentView === 'list') {
+        tools.forEach(tool => createToolElement(tool, 'list'));
+        toolsList.style.display = 'block'; // Use 'block' for list view
+    } else {
+        createTableView(tools);
+    }
+    // Adjust visibility for tableView
+    if(tableView) tableView.style.display = currentView === 'table' ? 'block' : 'none';
+};
 
     // Create individual tool elements for tile and list views
     const createToolElement = (tool, viewType) => {
@@ -77,9 +81,11 @@ document.addEventListener('DOMContentLoaded', () => {
     listViewBtn.addEventListener('click', () => switchView('list'));
     tableViewBtn.addEventListener('click', () => switchView('table'));
     resetViewBtn.addEventListener('click', () => {
-    currentView = 'tile'; // Explicitly set to 'tile' view
+    currentView = 'tile'; // Set current view to 'tile'
     currentTools = [...toolsData];
-    displayTools(currentTools);
+    if (tableView) tableView.style.display = 'none'; // Hide table view if it exists
+    toolsList.style.display = 'grid'; // Ensure grid layout for tile view
+    displayTools(currentTools); // Redisplay tools in the tile view
 });
 
     // Search and filter functionality for all views
