@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableViewBtn = document.getElementById('table-view-btn');
     const resetViewBtn = document.getElementById('reset-view-btn');
     let toolsData = [];
-    let currentView = 'list'; // Initialize with list view
+    let currentView = 'tile'; // Set tile view as default
     let currentTools = []; // To keep track of the currently displayed tools
+    let tableView; // Declare tableView outside to ensure it's dynamically created only when needed
 
     // Load tools data
     fetch('tools.json')
@@ -15,25 +16,25 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             toolsData = data;
             currentTools = [...toolsData];
-            displayTools(currentTools); // Display tools in the list view by default
+            displayTools(currentTools); // Display tools in the tile view by default
         });
 
-    // Display tools based on the current view
+    // Function to display tools based on the current view
     const displayTools = (tools) => {
-        if (currentView === 'list') {
-            toolsList.innerHTML = ''; // Clear the list first
-            tools.forEach(tool => createToolElement(tool));
-            toolsList.style.display = 'block'; // Show list view
-            if (tableView) tableView.style.display = 'none'; // Hide table view if it exists
+        toolsList.innerHTML = ''; // Clear the list first
+        if (currentView === 'tile') {
+            tools.forEach(tool => createToolElement(tool, 'tile'));
+        } else if (currentView === 'list') {
+            tools.forEach(tool => createToolElement(tool, 'list'));
         } else {
             createTableView(tools);
         }
     };
 
-    // Create individual tool elements for list view
-    const createToolElement = (tool) => {
+    // Create individual tool elements for tile and list views
+    const createToolElement = (tool, viewType) => {
         const toolElement = document.createElement('div');
-        toolElement.classList.add('tool');
+        toolElement.classList.add(viewType === 'tile' ? 'tool' : 'tool-list');
         toolElement.innerHTML = `
             <img src="${tool.image}" alt="${tool.name}" style="width: 100%;">
             <h3>${tool.name}</h3>
@@ -45,9 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Dynamically create the table view
-    let tableView; // Declare tableView outside to check its existence
     const createTableView = (tools) => {
-        if (!tableView) { // Check if tableView doesn't exist, then create it
+        if (!tableView) { // Create tableView if it doesn't exist
             tableView = document.createElement('table');
             tableView.className = 'table-view';
             toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tools.forEach(tool => {
             const row = tableView.insertRow(-1);
             row.innerHTML = `
-                <td><img src="${tool.image}" alt="${tool.name}"></td>
+                <td><img src="${tool.image}" alt="${tool.name}" style="width: 50px;"></td>
                 <td>${tool.name}</td>
                 <td>${tool.netPrice} PLN</td>
                 <td>${tool.grossPrice} PLN</td>
@@ -70,27 +70,21 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
         tableView.style.display = 'table'; // Show table view
-        toolsList.style.display = 'none'; // Hide list view
+        toolsList.style.display = 'none'; // Hide div and list views
     };
 
     // View toggle buttons
     listViewBtn.addEventListener('click', () => switchView('list'));
     tableViewBtn.addEventListener('click', () => switchView('table'));
+    resetViewBtn.addEventListener('click', () => switchView('tile')); // Reset to tile view
 
-    // Reset view to display all tools
-    resetViewBtn.addEventListener('click', () => {
-        currentTools = [...toolsData];
-        displayTools(currentTools);
-    });
-
-    // Implement search functionality for both views
+    // Search and filter functionality for all views
     searchInput.addEventListener('input', () => {
         const searchText = searchInput.value.toLowerCase();
         currentTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
         displayTools(currentTools);
     });
 
-    // Implement filter functionality for both views
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             const type = button.getAttribute('data-type');
@@ -99,8 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Function to switch between views
     const switchView = (view) => {
         currentView = view;
+        if (tableView) tableView.style.display = 'none'; // Hide table view if switching away from it
+        toolsList.style.display = 'block'; // Show div or list view
         displayTools(currentTools);
     };
 });
