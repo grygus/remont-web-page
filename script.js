@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     // Function to display tools based on the current view
-    cconst displayTools = (tools) => {
+    const displayTools = (tools) => {
     toolsList.innerHTML = ''; // Clear the current display
     if (currentView === 'tile') {
         tools.forEach(tool => createToolElement(tool, 'tile'));
