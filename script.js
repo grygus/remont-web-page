@@ -6,28 +6,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableViewBtn = document.getElementById('table-view-btn');
     const resetViewBtn = document.getElementById('reset-view-btn');
     let toolsData = [];
-    let currentView = 'list'; // Track the current view
-    let currentTools = []; // Track the current displayed tools
+    let currentView = 'list'; // Initialize with list view
+    let currentTools = []; // To keep track of the currently displayed tools
 
+    // Load tools data
     fetch('tools.json')
         .then(response => response.json())
         .then(data => {
             toolsData = data;
             currentTools = [...toolsData];
-            displayTools(currentTools);
-            implementInfiniteScroll();
+            displayTools(currentTools); // Display tools in the list view by default
         });
 
-    const displayTools = (tools, reset = false) => {
-        if (reset || currentView === 'list') {
+    // Display tools based on the current view
+    const displayTools = (tools) => {
+        if (currentView === 'list') {
             toolsList.innerHTML = ''; // Clear the list first
             tools.forEach(tool => createToolElement(tool));
-            toolsList.style.display = 'block'; // Ensure list view is visible
+            toolsList.style.display = 'block'; // Show list view
+            if (tableView) tableView.style.display = 'none'; // Hide table view if it exists
         } else {
             createTableView(tools);
         }
     };
 
+    // Create individual tool elements for list view
     const createToolElement = (tool) => {
         const toolElement = document.createElement('div');
         toolElement.classList.add('tool');
@@ -41,9 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
         toolsList.appendChild(toolElement);
     };
 
+    // Dynamically create the table view
+    let tableView; // Declare tableView outside to check its existence
     const createTableView = (tools) => {
-        let tableView = document.querySelector('.table-view');
-        if (!tableView) {
+        if (!tableView) { // Check if tableView doesn't exist, then create it
             tableView = document.createElement('table');
             tableView.className = 'table-view';
             toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
@@ -65,29 +69,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${tool.deposit} PLN</td>
             `;
         });
-        tableView.style.display = 'table';
+        tableView.style.display = 'table'; // Show table view
         toolsList.style.display = 'none'; // Hide list view
-        currentView = 'table';
     };
 
-    // Functionality to switch between list and table view
+    // View toggle buttons
     listViewBtn.addEventListener('click', () => switchView('list'));
     tableViewBtn.addEventListener('click', () => switchView('table'));
 
     // Reset view to display all tools
     resetViewBtn.addEventListener('click', () => {
         currentTools = [...toolsData];
-        displayTools(currentTools, true);
+        displayTools(currentTools);
     });
 
-    // Implement search functionality
+    // Implement search functionality for both views
     searchInput.addEventListener('input', () => {
         const searchText = searchInput.value.toLowerCase();
         currentTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
         displayTools(currentTools);
     });
 
-    // Filter functionality
+    // Implement filter functionality for both views
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             const type = button.getAttribute('data-type');
@@ -98,12 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const switchView = (view) => {
         currentView = view;
-        displayTools(currentTools, true);
-    };
-
-    // Infinite scroll implementation
-    const implementInfiniteScroll = () => {
-        // Placeholder for infinite scroll logic
-        // This would include adding an event listener to the scroll event and loading more items as needed
+        displayTools(currentTools);
     };
 });
