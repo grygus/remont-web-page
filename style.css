@@ -6,9 +6,9 @@ body, html {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #005A9C;
+    background-color: #ffffff;
     color: #ffffff;
     padding: 10px;
 }
