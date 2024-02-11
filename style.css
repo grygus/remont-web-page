@@ -148,3 +148,17 @@ nav a {
     padding: 20px;
     display: none; /* Hide by default, shown via JS when loading */
 }
+
+
+.banner img {
+    width: 100%; /* Ensure it spans the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any inline spacing */
+    margin-bottom: 20px; /* Optional: add some space below the banner */
+}
+
+@media (max-width: 768px) {
+    .banner img {
+        margin-bottom: 10px; /* Less space on smaller screens */
+    }
+}
