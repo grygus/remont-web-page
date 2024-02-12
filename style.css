@@ -66,10 +66,7 @@ nav a {
     gap: 10px; /* Adds space between buttons or inputs when they wrap */
 }
 
-.filter, .search-bar input[type="text"], .view-toggle button {
-    flex: 1; /* Allows buttons and search input to grow and fill available space, with a minimum basis */
-    min-width: 150px; /* Sets a minimum width for buttons and input to maintain usability */
-}
+
 
 .table-view {
     margin: 0 auto; /* Center the table */
