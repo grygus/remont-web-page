@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tableView = document.createElement('table');
             tableView.className = 'table-view';
             toolsList.appendChild(tableView);
+			toolsList.classList.add('table-view-container');
         }
         tableView.innerHTML = `<tr>
             <th>Obraz</th>
