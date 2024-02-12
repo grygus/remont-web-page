@@ -50,6 +50,25 @@ nav a {
     padding: 10px;
 }
 
+section#tools {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.table-view {
+    margin: 0 auto; /* Center the table */
+    display: block; /* Ensure it's not flex or inline-block */
+    max-width: 960px; /* Adjust based on your design preference */
+    width: 100%; /* This makes it responsive to the container size */
+}
+
+/* Ensure there's no conflicting float or alignment on the table or its ancestors */
+section#tools, .table-view, .table-view * {
+    float: none;
+    text-align: center; /* Center content for table headers and cells */
+}
+
 #map {
     width: 100%;
     height: 400px;
