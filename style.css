@@ -111,29 +111,10 @@ nav a {
 
 /* Existing CSS... */
 
-/* Target the .tools-list specifically when it contains the table-view */
-.tools-list.table-view-container {
-    display: block;
-    width: 100%; /* Ensure full width to center the table within */
-    text-align: center; /* Center content */
-}
-
 .table-view {
-    width: 80%; /* Adjust based on your preference */
-    margin: 0 auto; /* Auto margins for horizontal centering */
+    display: none; /* Adjusted to be controlled by JS */
+    width: 100%;
     border-collapse: collapse;
-}
-
-/* Ensure tiles in default view are unaffected and centered if needed */
-.tools-list > div {
-    /* Tile specific styles, ensuring they're not affected by table centering styles */
-}
-
-@media screen and (max-width: 768px) {
-    .table-view {
-        width: 100%;
-        overflow-x: auto; /* Allows horizontal scrolling for smaller devices */
-    }
 }
 
 .table-view th, .table-view td {

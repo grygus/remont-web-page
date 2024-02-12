@@ -54,8 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!tableView) { // Create tableView if it doesn't exist
             tableView = document.createElement('table');
             tableView.className = 'table-view';
-            toolsList.appendChild(tableView);
-			toolsList.classList.add('table-view-container');
+            toolsList.parentNode.insertBefore(tableView, toolsList.nextSibling);
+			
+			
+            //toolsList.appendChild(tableView);
+			//toolsList.classList.add('table-view-container');
         }
         tableView.innerHTML = `<tr>
             <th>Obraz</th>
