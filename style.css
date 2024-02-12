@@ -116,14 +116,7 @@ section#tools, .table-view, .table-view * {
     .search-bar input[type="text"] {
         width: 80%; /* Zwiększa szerokość na mniejszych ekranach */
     }
-	.filter, .search-bar input[type="text"], .view-toggle button {
-        min-width: 100px; /* Smaller min-width for smaller devices */
-        padding: 5px 10px; /* Adjust padding for better fit on small screens */
-    }
-
-    .filter-bar, .search-bar, .view-toggle {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-    }
+	
 }
 
 .table-view {
