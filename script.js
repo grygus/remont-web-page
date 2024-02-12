@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('tools.json')
         .then(response => response.json())
         .then(data => {
-            toolsData = data;
+            toolsData = data.sort((a, b) => a.name.localeCompare(b.name)); // Sort tools alphabetically
             currentTools = [...toolsData];
             displayTools(currentTools); // Display tools in the tile view by default
         });
