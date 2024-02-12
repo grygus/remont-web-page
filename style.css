@@ -150,15 +150,26 @@ nav a {
 }
 
 
-.banner img {
-    width: 100%; /* Ensure it spans the full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any inline spacing */
-    margin-bottom: 20px; /* Optional: add some space below the banner */
+.banner {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    overflow: hidden; /* Prevents the image from overflowing its container */
 }
 
-@media (max-width: 768px) {
-    .banner img {
-        margin-bottom: 10px; /* Less space on smaller screens */
+.banner-image {
+    max-height: 240px; /* Maximum height */
+    min-height: 100px; /* Minimum height */
+    width: auto; /* Adjust width automatically */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
+    object-fit: cover; /* Cover the container without losing aspect ratio */
+}
+
+@media (max-width: 768px) { /* Adjustments for mobile devices */
+    .banner {
+        width: 100%; /* Full width on smaller screens */
+    }
+    .banner-image {
+        max-width: 100%; /* Allow image to be fully responsive */
+        max-height: none; /* Remove max height restriction for flexibility */
     }
 }
