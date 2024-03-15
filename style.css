@@ -42,7 +42,6 @@ nav a {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    padding: 20px;
 }
 
 .tool {
@@ -55,7 +54,8 @@ nav a {
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Centers children horizontally */
     justify-content: flex-start; /* Aligns children to the start of the flex container */
-    width: 100%;
+    width: 88%;
+	padding-left: 6%;
 }
 
 .filter-bar, .search-bar, .view-toggle {
@@ -208,8 +208,7 @@ section#tools, .table-view, .table-view * {
 
 
  .iframe-maps iframe {
-        left: 5%;
-        width: 90% !important;
+        width: 100% !important;
     }
 	
 	#contact {
@@ -217,21 +216,25 @@ section#tools, .table-view, .table-view * {
     flex-direction: column; /* Stacks children vertically */
 
     justify-content: flex-start; /* Aligns children to the start of the flex container */
-    width: 100%;
+    width: 90%;
 	padding-left: 5%;
-	lign-self: flex-start;
+	aslign-self: flex-start;
 }
 
 
 /* Zoom */
-
+.tool {
+}
 
 /* [2] Transition property for smooth transformation of images */
-..table-view img {
+.tool img {
   transition: transform .5s ease;
+  object-fit: cover;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
-..table-view:hover img {
-  transform: scale(1.5);
+.tool:hover img {
+	-webkit-transform:scale(2);
+  transform: scale(2);
+
 }
