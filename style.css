@@ -205,3 +205,33 @@ section#tools, .table-view, .table-view * {
         max-height: none; /* Remove max height restriction for flexibility */
     }
 }
+
+
+ .iframe-maps iframe {
+        left: 5%;
+        width: 90% !important;
+    }
+	
+	#contact {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+
+    justify-content: flex-start; /* Aligns children to the start of the flex container */
+    width: 100%;
+	padding-left: 5%;
+	lign-self: flex-start;
+}
+
+
+/* Zoom */
+
+
+/* [2] Transition property for smooth transformation of images */
+..table-view img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+..table-view:hover img {
+  transform: scale(1.5);
+}
