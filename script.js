@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // View toggle buttons
-    listViewBtn.addEventListener('click', () => switchView('list'));
+    //listViewBtn.addEventListener('click', () => switchView('list'));
     tableViewBtn.addEventListener('click', () => switchView('table'));
     resetViewBtn.addEventListener('click', () => {
     currentView = 'tile'; // Set current view to 'tile'
