@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         toolsList.style.display = 'block'; // Use 'block' for list view
     } else {
         createTableView(tools);
+		toolsList.style.display = 'content';
     }
     // Adjust visibility for tableView
     if(tableView) tableView.style.display = currentView === 'table' ? 'block' : 'none';
