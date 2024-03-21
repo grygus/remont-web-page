@@ -280,3 +280,30 @@ section#tools, .table-view, .table-view * {
   transform: scale(2);
 
 }
+
+div.thumb {
+    position: relative;
+    z-index: 0;
+    margin: -0.2em;
+}
+
+div.thumb img {
+    width: 1.2em;
+    height: 1.2em;
+    object-fit: cover;
+}
+
+tr:hover div.thumb {
+    z-index: 9999;
+}
+
+tr:hover div.thumb img {
+    width: 2.4em;
+    height: 2.4em;
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 25%;    
+    margin: -0.7em;
+    box-shadow:0px 0px 16px 1px #000000;
+}

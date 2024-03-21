@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tools.forEach(tool => {
             const row = tableView.insertRow(-1);
             row.innerHTML = `
-                <td><img src="${tool.image}" alt="${tool.name}" style="width: 50px;"></td>
+                <td><div class="thumb"><img src="${tool.image}" alt="${tool.name}" style="width: 50px;"></div></td>
                 <td>${tool.name}</td>
                 <td>${tool.netPrice} PLN</td>
                 <td>${tool.grossPrice} PLN</td>
