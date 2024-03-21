@@ -12,9 +12,9 @@
 <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
     
     <div class="nav-bar">
-                <button class="navi" data-type="Elektronarzędzia">CENNIK</button>
-                <button class="navi" data-type="Maszyny spalinowe">O FIRMIE</button>
-                <button class="navi" data-type="Maszyny ogrodnicze">NOWOŚCI</button>
+                <button class="navi" onClick="document.getElementById('tools').scrollIntoView();">CENNIK</button>
+                <button class="navi" onClick="document.getElementById('contact').scrollIntoView();">O FIRMIE</button>
+                <button class="navi" onClick="document.getElementById('contact').scrollIntoView();">NOWOŚCI</button>
             </div>
 	</section>
 
@@ -36,8 +36,9 @@
             </div>
             <div class="view-toggle">
                 <!-- <button id="list-view-btn"><i class="fas fa-undo"></i> Widok listy</button> -->
+				<button id="reset-view-btn"><i class="fas fa-list"></i>Cennik Lista</button>
                 <button id="table-view-btn"><i class="fas fa-table"></i>Cennik Tabela</button>
-                <button id="reset-view-btn"><i class="fas fa-list"></i>Cennik Lista</button>
+                
             </div>
             <div class="tools-list"></div>
         </section>

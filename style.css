@@ -192,10 +192,27 @@ section#tools, .table-view, .table-view * {
 
 /* Icons styling */
 .view-toggle button {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
+     
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    flex-wrap: wrap; /* Allows items to wrap if not enough space */
+    gap: 10px; /* Adds space between buttons or inputs when they wrap */
+	
+	padding: 5px;
+    margin: 10px 10px;
+    background-color: white;
+    color: black;
+    
+    cursor: pointer;
+	border-color:  #235393;
+	border-width: 2px;
+	
+	border-radius: 10px;
 }
+.view-toggle{
+
+}
+    
 
 /* Adjustments for responsive design and infinite scroll might be added here. */
 
