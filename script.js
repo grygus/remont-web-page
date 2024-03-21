@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		toolsList.style.display = 'content';
     }
     // Adjust visibility for tableView
-    if(tableView) tableView.style.display = currentView === 'table' ? 'block' : 'none';
+    if(tableView) tableView.style.display = currentView === 'table' ? 'content' : 'none';
 };
 
     // Create individual tool elements for tile and list views
