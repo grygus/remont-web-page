@@ -90,6 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
     currentTools = [...toolsData];
     if (tableView) tableView.style.display = 'none'; // Hide table view if it exists
     toolsList.style.display = 'grid'; // Ensure grid layout for tile view
+	
+	const searchText = searchInput.value.toLowerCase();
+    currentTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
+	
     displayTools(currentTools); // Redisplay tools in the tile view
 });
 
@@ -113,6 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
         currentView = view;
         if (tableView) tableView.style.display = 'none'; // Hide table view if switching away from it
         toolsList.style.display = 'block'; // Show div or list view
+		
+		const searchText = searchInput.value.toLowerCase();
+        currentTools = toolsData.filter(tool => tool.name.toLowerCase().includes(searchText));
+		
         displayTools(currentTools);
     };
 });
